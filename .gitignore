@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.local
+*.key
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude / agents
+.claude/
